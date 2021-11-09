@@ -1,3 +1,9 @@
-export type State = {};
+import { initialWebAudioState, WebAudioState } from "./WebAudioState";
 
-export const initialState: State = {};
+export type State = {
+  webAudio: WebAudioState;
+};
+
+export const initialState: State = {
+  webAudio: initialWebAudioState,
+};
