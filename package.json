@@ -1,0 +1,44 @@
+{
+  "name": "frequency-response-tester",
+  "version": "1.0.0",
+  "description": "\"Test frequency response of speaker with your mic\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node scripts/dev/dev.ts",
+    "build": "ts-node scripts/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigfoodK/frequency-response-tester.git"
+  },
+  "author": "bigfood",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bigfoodK/frequency-response-tester/issues"
+  },
+  "homepage": "https://github.com/bigfoodK/frequency-response-tester#readme",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/style": "^0.8.0",
+    "@mui/material": "^5.1.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.13.13",
+    "fs-extra": "^10.0.0",
+    "immer": "^9.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/ws": "^8.2.0",
+    "fastify": "^3.23.1",
+    "fastify-static": "^4.5.0",
+    "fastify-websocket": "^4.0.0",
+    "ws": "^8.2.3"
+  }
+}
